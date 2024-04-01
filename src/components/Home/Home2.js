@@ -4,10 +4,11 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiOutlineTwitter
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+// Import the SiUpwork icon
+import { SiUpwork } from "react-icons/si";
 
 function Home2() {
   return (
@@ -24,22 +25,21 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> automating deployments, orchestrating infrastructure, and optimizing CI/CD pipelines for seamless software delivery </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest's lies in  &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple">pioneering the development of innovative solutions, pushing the boundaries to create new platforms and products that redefine industry standards.</b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Blockchain.
+                  Development and Deployment.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              Whenever possible, I also apply my passion into driving projects forward, infusing creativity and dedication into every line of code and every deployment <b className="purple">striving for excellence at every </b> and
               <i>
                 <b className="purple">
                   {" "}
@@ -67,7 +67,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/PurushotamSharma"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +77,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/Purushotam_0"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +87,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/purushotamsharma/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,12 +97,13 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.upwork.com/freelancers/purushotam"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour home-social-icons"
+                  className="icon-colour  home-social-icons"
                 >
-                  <AiFillInstagram />
+                  {/* Use the SiUpwork icon */}
+                  <SiUpwork />
                 </a>
               </li>
             </ul>
